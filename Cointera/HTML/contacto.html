@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ASSETS/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/Contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!--Barra de navegacion -->
+    <nav class="nav">
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../ASSETS/logo-1.png" alt="Logo" class="logo-img" draggable="false">
+            </a>
+        </div>
+        <div class="menu">
+            <ul class="main-menu">
+                <li class="menu-link"><a href="../index.html" class="a-menu">Inicio</a></li>
+                <li class="menu-link"><a href="./criptomonedas.html" class="a-menu">Criptomonedas</a></li>
+                <li class="menu-link"><a href="./bolsa-valores.html" class="a-menu">Bolsa de valores</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <!--Formulario de registro-->
+    <section class="formulario">
+        <form class="form-contac" id="form">
+            <p class="form-p">Los campos obligatorios están marcados con un asterisco: *</p>
+
+            <label for="nombre">Nombre*</label>
+            <input type="text" placeholder="Nombre" required>
+
+            <label for="apellidos">Apellidos*</label>
+            <input type="text" placeholder="Apellidos" required>
+
+            <label for="Correo">Correo electrónico*</label>
+            <input type="email" placeholder="Correo electrónico" required>
+
+            <div class="check-div">
+                <input type="checkbox" name="check" class="check" required>
+                <label for="check" class="check-label">Certifico que soy mayor de 18 años y acepto el <span>Contrato de <br> usuario</span>  y la <span>Política de privacidad.</span> </label>
+            </div>
+
+            <button type="submit" class="btn-form">Solicitar Informacion</button>
+        </form>
+    </section>
+    <!--Footer-->
+    <footer class='footer'>
+        <div class="footer-info">
+            <h3>COINTERA</h3>
+            <h4>© 2024 Cointera</h4>
+            <p>Desarrollador</p>
+            <span class="footer-span">Cristian Garcia Mesa</span>
+        </div>
+    </footer>
+    <button class="dark-theme-btn">🌙</button>
+    <script type="module" src="../JS/index.js"></script>
+    <script src="../JS/formulario.js"></script>
+</body>
+</html>

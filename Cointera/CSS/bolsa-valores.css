@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navegacion*/
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.logo-img{
+    padding-left: 3rem;
+    width: 80px;
+    height: 80px;
+}
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-link{
+    margin: 1rem;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #7c7b7b;
+}
+
+.a-menu:hover{
+    text-decoration: underline;
+}
+
+/*info*/
+.info{
+    padding: 2rem;
+}
+
+.titulo-mercado{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.p-mercado{
+    font-size: 17px;
+    color: #808080;
+}
+
+.hr-cep{
+    border: 0;
+    height: 2px;
+    background-color: #4CAF50;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/*marquee-info*/
+
+.marquee-tr, .marquee-th{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #fffdfd;
+}
+
+.marquee-th{
+    background: #4CAF50;
+    color: #fff;
+}
+
+.marquee-th-val{
+    background: #fff;
+    color: #000;
+}
+
+.marquee-th-1{
+    background: #fff;
+    color: #4CAF50;
+}
+
+.marquee-th-2{
+    background: #fff;
+    color: #f70c0c;
+}
+
+
+/*Tabla indices */
+.titule-h3{
+    text-align: center;
+}
+
+.tablas{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.tabla{
+    width: 30%;
+}
+
+.table{
+    width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #808080;
+}
+
+.btn-indice{
+    margin-top: 9.5rem;
+    margin-left: 15rem;
+    width: 150px;
+    height: 30px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-variable{
+    margin-top: 7.7rem;
+    margin-left: 15rem;
+    width: 150px;
+    height: 30px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-divisas{
+    margin-top: 16.5rem;
+    margin-left: 15rem;
+    width: 150px;
+    height: 30px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.btn-indice:hover{
+    background: #000;
+    border: 1px solid #808080;
+}
+
+.btn-variable:hover{
+    background: #000;
+    border: 1px solid #808080;
+}
+
+.btn-divisas:hover{
+    background: #000;
+    border: 1px solid #808080;
+}
+
+.span-card-red{
+    color: #f70c0c;
+}
+
+.span-card-green{
+    color: #4CAF50;
+}
+
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 120px;
+    border-top: 1px solid #fff;
+}
+
+.footer-info{
+    padding-top: 1rem;
+}
+
+/************************* Dark Btn **********************/
+.dark-theme-btn{
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    left: 1vw;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f7df1e;
+    color: #222;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+}
+
+.dark-theme-btn:hover{
+    background-color: #222;
+    color: #f7df1e;
+}
+
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+    .info{
+        text-align: center;
+    }
+
+    .btn-indice, .btn-variable, .btn-divisas{
+        margin: 10px;
+    }
+
+    .tablas{
+        width: 60%;
+    }
+
+    .img-tabla{
+        display: none;
+    }
+}
