@@ -22,6 +22,6 @@ Funcionalidades:
 
 *RESPONSIVE 
 
-*DARK MODE
+* DARK MODE
 
-*FORMS
+* FORMS
