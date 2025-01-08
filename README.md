@@ -20,7 +20,7 @@ COINTERA
 
 Funcionalidades:
 
-*RESPONSIVE 
+* RESPONSIVE 
 
 * DARK MODE
 
