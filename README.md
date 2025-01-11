@@ -12,11 +12,11 @@ COINTERA
 
 # cointera
 
--HTML 
+- HTML 
 
--CSS
+- CSS
 
--JS
+- JS
 
 Funcionalidades:
 
